@@ -1,0 +1,15 @@
+.{
+    .name = "rpmalloc-bindings",
+    .version = "0.14.0",
+    .dependencies = .{
+        .rpmalloc = .{
+            .url = "git+https://github.com/nicoelbers/rpmalloc-zig#904c512cb385d849fffc512886af8bc3ccb689bb",
+            .hash = "122015b4a5796d526de0cb5c6039cc598f3e6819db032a53b5b99aecfe58278811df",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
