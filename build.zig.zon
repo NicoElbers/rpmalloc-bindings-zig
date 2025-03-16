@@ -1,5 +1,5 @@
 .{
-    .name = "rpmalloc-bindings",
+    .name = .rpmalloc_bindings,
     .version = "0.14.0",
     .dependencies = .{
         .rpmalloc = .{
@@ -12,4 +12,5 @@
         "build.zig.zon",
         "src",
     },
+    .fingerprint = 0xd19ec6b470509ebe,
 }
