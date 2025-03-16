@@ -3,8 +3,8 @@
     .version = "0.14.0",
     .dependencies = .{
         .rpmalloc = .{
-            .url = "git+https://github.com/nicoelbers/rpmalloc-zig#904c512cb385d849fffc512886af8bc3ccb689bb",
-            .hash = "122015b4a5796d526de0cb5c6039cc598f3e6819db032a53b5b99aecfe58278811df",
+            .url = "git+https://github.com/NicoElbers/rpmalloc-zig#cf94e9d6174ff27def9052918f2f4e7380f6ba69",
+            .hash = "rpmalloc-1.4.5-HSE0U1MYAABcFpv9uPI3hcpKOIRWrEU3qarI36yghROF",
         },
     },
     .paths = .{
